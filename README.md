@@ -62,11 +62,35 @@ Sellers post an ad in two minutes. The web app and the Android app share one API
 
 ## 📱 Android app (React Native + Expo)
 
-| Home | Search | Phone details | Login | Sell your phone |
-|---|---|---|---|---|
-| ![](screenshots/app/01-home.jpg) | ![](screenshots/app/02-search-results.jpg) | ![](screenshots/app/03-phone-details.jpg) | ![](screenshots/app/04-login.jpg) | ![](screenshots/app/05-sell-your-phone.jpg) |
-| **My account** | **Chat** | **Seller profile** | **Settings** | |
-| ![](screenshots/app/06-my-account.jpg) | ![](screenshots/app/07-chat.jpg) | ![](screenshots/app/08-seller-profile.jpg) | ![](screenshots/app/09-settings.jpg) | |
+<table>
+  <tr>
+    <th>Home</th><th>Search</th><th>Phone details</th><th>Sell your phone</th>
+  </tr>
+  <tr valign="top">
+    <td><img src="screenshots/app/01-home.jpg" width="190" alt="Home"/></td>
+    <td><img src="screenshots/app/02-search-results.jpg" width="190" alt="Search results"/></td>
+    <td><img src="screenshots/app/03-phone-details.jpg" width="190" alt="Phone details"/></td>
+    <td><img src="screenshots/app/05-sell-your-phone.jpg" width="190" alt="Sell your phone"/></td>
+  </tr>
+  <tr>
+    <th>Login</th><th>Create account</th><th>Chat</th><th>Saved phones</th>
+  </tr>
+  <tr valign="top">
+    <td><img src="screenshots/app/04-login.jpg" width="190" alt="Login"/></td>
+    <td><img src="screenshots/app/10-create-account.jpg" width="190" alt="Create account"/></td>
+    <td><img src="screenshots/app/07-chat.jpg" width="190" alt="Chat"/></td>
+    <td><img src="screenshots/app/11-saved-phones.jpg" width="190" alt="Saved phones"/></td>
+  </tr>
+  <tr>
+    <th>My account</th><th>Seller profile</th><th>Settings</th><th></th>
+  </tr>
+  <tr valign="top">
+    <td><img src="screenshots/app/06-my-account.jpg" width="190" alt="My account"/></td>
+    <td><img src="screenshots/app/08-seller-profile.jpg" width="190" alt="Seller profile"/></td>
+    <td><img src="screenshots/app/09-settings.jpg" width="190" alt="Settings"/></td>
+    <td></td>
+  </tr>
+</table>
 
 App stack: Expo Router, TanStack Query, Secure Store, push notifications, image picker, location and Socket.io client.
 
